@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'lato',sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+background:rgba(83, 86, 187, 0.78);
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.singup-header h1{
+    color: #212122;
+    padding-top: 10px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 10px;
+
+}
+
+.singup-header p{
+color:#555;
+font-size: 1rem;
+}
+
+.singup-body {
+margin:20px 0 ;
+}
+
+.singup-body p{
+margin: 10px 0;
+}
+
+.singup-body p label {
+    display: block;
+    font-weight: bold;
+}
+.singup-body p input{
+    width: 100%;
+    padding:10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.singup-body p input[type="submit"]{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: navajowhite;
+
+}
+.singup-body p input[type="submit"]:hover{
+    background-color: black;
+}
+
+.singup-footer p{
+    color: #555;
+    text-align: center;
+}
+
+.singup-footer p a{
+color: green;
+}
+
+/*  
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: rgb(rgb(114, 7, 7), rgb(167, 238, 167), rgb(59, 59, 116));
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 100px;
+    right: 50px;
+}
+*/
